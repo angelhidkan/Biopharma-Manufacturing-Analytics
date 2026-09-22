@@ -1,6 +1,6 @@
 # Biopharmaceutical Manufacturing Analytics
 
-A data analytics project that uses Python and Power BI to analyse simulated biopharmaceutical manufacturing batch data.
+This project is a data analysis that uses Python and Power BI to analyse simulated biopharmaceutical manufacturing batch data.
 
 The project evaluates production yield, process conditions and quality-control results through a reproducible workflow and an interactive Power BI dashboard.
 
@@ -30,17 +30,6 @@ The objective of this project is to analyse batch data and answer the following 
 - Are temperature, pH or dissolved oxygen values outside their expected ranges?
 - Are process conditions associated with production yield?
 - How many batches pass or fail the quality-control checks?
-
-## Project Workflow
-
-1. Create a synthetic biopharmaceutical batch dataset.
-2. Load and inspect the data using Python and pandas.
-3. Clean and transform the dataset.
-4. Calculate manufacturing and quality KPIs.
-5. Identify low-yield batches and process anomalies.
-6. Visualise process and quality results using Python.
-7. Export a cleaned dataset for Power BI.
-8. Build an interactive manufacturing analytics dashboard.
 
 ## Dataset
 
@@ -113,6 +102,7 @@ The Power BI dashboard includes:
 - Average yield by production line.
 - Yield versus reactor temperature.
 - Yield versus reactor pH.
+- Yield versus reactor dissolved oxygen.
 - Product slicer.
 - Production-line slicer.
 
@@ -135,96 +125,15 @@ The slicers allow users to investigate manufacturing performance for individual 
 - Jupyter Notebook
 - Power BI
 - Visual Studio Code
-- Git and GitHub
-
-## Repository Structure
-
-```text
-biopharma-manufacturing-analytics/
-│
-├── data/
-│   ├── batches_raw.csv
-│   └── batches_clean_for_powerbi.csv
-│
-├── notebooks/
-│   └── biopharma_analysis.ipynb
-│
-├── powerbi/
-│   └── biopharma_dashboard.pbix
-│
-├── images/
-│   └── dashboard.png
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
-
-## How to Run the Python Analysis
-
-### 1. Clone the repository
-
-```bash
-git clone [https://github.com/YOUR-USERNAME/biopharma-manufacturing-analytics.git](https://github.com/YOUR-USERNAME/biopharma-manufacturing-analytics.git)
-```
-
-### 2. Open the project folder
-
-```bash
-cd biopharma-manufacturing-analytics
-```
-
-### 3. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Open the notebook
-
-Open the following file in Jupyter Notebook or Visual Studio Code:
-
-```text
-notebooks/biopharma_analysis.ipynb
-```
-
-Run the notebook cells in order.
-
-## Power BI Instructions
-
-1. Open Power BI Desktop.
-2. Open `powerbi/biopharma_dashboard.pbix`.
-3. If the data source cannot be found, reconnect it to:
-
-```text
-data/batches_clean_for_powerbi.csv
-```
-
-4. Use the product and production-line slicers to interact with the dashboard.
 
 ## Limitations
 
 - The dataset is synthetic and does not represent an actual pharmaceutical manufacturing process.
 - The dataset contains only 15 batches.
 - Operating ranges were defined for demonstration and are not validated manufacturing specifications.
-- Correlations in the dataset should not be interpreted as proof of causation.
 - The project is intended to demonstrate a data-analysis workflow rather than support real batch-release decisions.
-
-## Future Improvements
-
-- Include more batches and a longer production period.
-- Add batch-duration and productivity KPIs.
-- Calculate correlations between process parameters and yield.
-- Add statistical process-control charts.
-- Develop anomaly-detection methods.
-- Add predictive models for yield and QC outcomes.
-- Connect Power BI to an automatically updated data source.
 
 ## Author
 
 **Angel HK**  
 Biotechnology Engineering student interested in bioprocessing, manufacturing analytics and scientific data analysis.
-
-## License
-
-This project is available for educational and portfolio purposes.
