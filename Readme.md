@@ -8,7 +8,14 @@ The project evaluates production yield, process conditions and quality-control r
 
 ## Dashboard Preview
 
-![Biopharmaceutical Manufacturing Yield Dashboard](biopharma-manufacturing-analytics/Images/Yield-Dashboard.png)
+![Biopharmaceutical Manufacturing Yield Dashboard]
+(biopharma-manufacturing-analytics/Images/Yield-Dashboard.png)
+
+![Biopharmaceutical Manufacturing QC Dashboard]
+(biopharma-manufacturing-analytics/Images/QC-Dashboard.png)
+
+![Biopharmaceutical Manufacturing Parameters Dashboard]
+(biopharma-manufacturing-analytics/Images/Parameters-Dashboard.png)
 
 ## Project Objective
 
