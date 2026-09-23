@@ -2,7 +2,7 @@
 
 This project is a data analysis that uses Python and Power BI to analyse simulated biopharmaceutical manufacturing batch data.
 
-The project evaluates production yield, process conditions and quality-control results through a reproducible workflow and an interactive Power BI dashboard.
+The project evaluates production yield, process conditions and quality-control results.
 
 > **Note:** The dataset used in this project is synthetic and was created exclusively for educational and portfolio purposes. It does not contain real company or patient data.
 
